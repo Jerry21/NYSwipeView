@@ -13,6 +13,7 @@
 		75475A661ECAE44200C2AF3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75475A641ECAE44200C2AF3D /* Main.storyboard */; };
 		75475A681ECAE44200C2AF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75475A671ECAE44200C2AF3D /* Assets.xcassets */; };
 		75475A6B1ECAE44200C2AF3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75475A691ECAE44200C2AF3D /* LaunchScreen.storyboard */; };
+		75475A781ECAE48600C2AF3D /* NYSwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75475A771ECAE48600C2AF3D /* NYSwipeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		75475A671ECAE44200C2AF3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75475A6A1ECAE44200C2AF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75475A6C1ECAE44200C2AF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75475A761ECAE48500C2AF3D /* NYSwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSwipeView.h; sourceTree = "<group>"; };
+		75475A771ECAE48600C2AF3D /* NYSwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSwipeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		75475A5A1ECAE44200C2AF3D /* NYSwipeView */ = {
 			isa = PBXGroup;
 			children = (
+				75475A751ECAE48500C2AF3D /* NYSwipeView */,
 				75475A5E1ECAE44200C2AF3D /* AppDelegate.h */,
 				75475A5F1ECAE44200C2AF3D /* AppDelegate.m */,
 				75475A611ECAE44200C2AF3D /* ViewController.h */,
@@ -77,6 +81,15 @@
 				75475A5C1ECAE44200C2AF3D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75475A751ECAE48500C2AF3D /* NYSwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				75475A761ECAE48500C2AF3D /* NYSwipeView.h */,
+				75475A771ECAE48600C2AF3D /* NYSwipeView.m */,
+			);
+			path = NYSwipeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				75475A631ECAE44200C2AF3D /* ViewController.m in Sources */,
 				75475A601ECAE44200C2AF3D /* AppDelegate.m in Sources */,
+				75475A781ECAE48600C2AF3D /* NYSwipeView.m in Sources */,
 				75475A5D1ECAE44200C2AF3D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
